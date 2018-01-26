@@ -1,0 +1,38 @@
+/*Element*/
+li {
+
+}
+/*Class*/
+.example {
+
+}
+/*id*/
+#example {
+
+}
+/*Star*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector*/
+li a {
+	color: red;
+}
+
+/*Adjacent Selector*/
+
+h4 + ul {
+	border: 4px solid purple;
+}
+
+/*Attribute Selector*/
+
+a[href = "http://www.google.com"]{
+	background: blue;
+}
+
+/*nth of type*/
+li:nth-of-type(even){
+	background: purple
+}
