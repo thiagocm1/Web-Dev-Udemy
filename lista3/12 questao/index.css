@@ -1,0 +1,74 @@
+
+
+body {
+	background: black;
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 2em 1fr 1fr 2em;
+	color: white;
+}
+
+header {
+	background: gray;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	border: 2px solid white;
+	margin: 5px;
+	padding: 2px;
+	border-radius: 7px;
+	height: 2em;
+}
+
+nav {
+	background: red;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	border: 2px solid white;
+	margin: 5px;
+	padding: 2px;
+	border-radius: 7px;
+}
+
+#status {
+	background: green;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 5;
+	border: 2px solid white;
+	margin: 5px;
+	padding: 2px;
+	border-radius: 7px;
+}
+
+main {
+	background: blue;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	border: 2px solid white;
+	margin: 5px;
+	padding: 2px;
+	border-radius: 7px;
+}
+
+footer {
+	background: purple;
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	border: 2px solid white;
+	margin: 5px;
+	padding: 2px;
+	height: 2em;
+
+	border-radius: 7px;
+}
